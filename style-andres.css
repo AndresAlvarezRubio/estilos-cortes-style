@@ -698,6 +698,7 @@
         grid-template-columns: 1fr;
       }
     }
+
     /* Responsive styles for testimonios-header-info */
 .testimonios-header-info {
   display: inline-flex;
@@ -706,8 +707,10 @@
 }
 @media (max-width: 600px) {
   .testimonios-header-info {
+   position: absolute;
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 0.2em;
+    align-items: center;
+    right: 10px;
   }
 }
