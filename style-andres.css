@@ -706,6 +706,9 @@
   gap: 0.75em;
 }
 @media (max-width: 600px) {
+  .testimonio-modern-header .testimonios-header-info .testimonios-header-stars {
+    margin-left: 0;
+  }
   .testimonios-header-info {
    position: absolute;
     display: flex;
